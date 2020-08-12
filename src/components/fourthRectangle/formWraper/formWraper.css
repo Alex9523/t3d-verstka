@@ -1,0 +1,18 @@
+.form-wraper {
+    position: absolute;
+    width: 652px;
+    height: 450px;
+    left: 394px;
+    top: 409px;
+    background: rgba(245, 245, 245, 0.6);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.form-wraper__people-pictures {
+    background-image: url('Call center-amico 1.png');
+    width: 386px;
+    height: 372px;
+}

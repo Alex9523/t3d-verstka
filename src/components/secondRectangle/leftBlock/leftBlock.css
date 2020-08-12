@@ -1,0 +1,19 @@
+.leftBlock {
+    position: relative;
+    width: 720px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.leftBlock__img {
+    position: absolute;
+    width: 830px;
+    height: 722px;
+    left: 610px;
+    top: 302px;
+    background: url('man.png');
+    z-index: 2;
+}
+

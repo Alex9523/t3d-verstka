@@ -1,0 +1,26 @@
+.third-rectangle {
+    position: absolute;
+    top: 2068px;
+    width: 1440px;
+    height: 319px;
+    background: #001E4C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-rectangle__title {
+    width: 257px;
+    height: 62px;
+    font-family: Niramit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.third-rectangle__title p{
+    margin: 0;
+}

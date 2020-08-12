@@ -1,0 +1,10 @@
+.fourth-container {
+    position: absolute;
+    top:2397px;
+    width: 1440px;
+    height: 1024px;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75 )),
+    url('https://ozi.pp.ua/wp-content/uploads/2015/01/hmarochos-meri-eks-v-londoni-07.jpg');
+    background-size: cover;
+}

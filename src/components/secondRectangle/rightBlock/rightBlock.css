@@ -1,0 +1,23 @@
+.rightBlock {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    left: 720px;
+    top: 0px;
+    background: #001E4C;
+}
+
+.rightBlock-title {
+    position: absolute;
+    width: 589px;
+    margin-left: -19px;
+
+    font-family: Franklin Gothic Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: right;
+    color: #FFFFFF;
+    z-index: 2;
+}

@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 1080px;
+    top: 60px;
+}
+
+.contacts__img {
+    background-image: url('tel.png');
+    width: 10px;
+    height: 10px;
+}
+
+.contacts__text {
+    font-family: Niramit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-right: 20px;
+}
