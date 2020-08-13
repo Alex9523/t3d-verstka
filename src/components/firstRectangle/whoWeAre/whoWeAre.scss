@@ -1,0 +1,23 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
+.wwa {
+    position: relative;
+    top: 277px;
+    left: 798px;
+    width: 492px;
+    height: 506px;
+}
+
+.wwa{
+    h2{
+        @include font(Franklin Gothic Book, normal, 72px, $white-color);
+        margin-bottom: 30px;
+    }
+}
+
+.wwa{
+    p{
+        @include font(Franklin Gothic Book, normal, 22px, $white-color);
+    }
+}

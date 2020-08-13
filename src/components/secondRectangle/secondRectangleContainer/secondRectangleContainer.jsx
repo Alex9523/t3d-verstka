@@ -1,7 +1,7 @@
 import React from 'react'
 import LeftBlock from '../leftBlock/leftBlock'
 import RightBlock from '../rightBlock/rightBlock'
-import './secondRectangleContainer.css'
+import './secondRectangleContainer.scss'
 
 function SecondRectangleContainer(){
     return(

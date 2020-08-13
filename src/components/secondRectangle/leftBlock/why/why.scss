@@ -1,0 +1,45 @@
+@import "../../../../scss/variables.scss";
+@import "../../../../scss/mixins.scss";
+
+.why {
+    position: absolute;
+    width: 332px;
+    height: 114px;
+}
+
+
+
+.why__header {
+    @include font(Montserrat, 500, 24px, $backgr);
+    line-height: 29px;
+}
+
+.why__text{
+    @include font(Montserrat, normal, 14px, $backgr);
+    line-height: 17px;
+}
+
+.position-1 {
+    left: 152px;
+    top: 110px;
+}
+
+.position-2 {
+    left: 295px;
+    top: 303px;
+}
+
+.position-3 {
+    left: 152px;
+    top: 463.35px;
+}
+
+.position-4 {
+    left: 286px;
+    top: 609px;
+}
+
+.position-5 {
+    left: 152px;
+    top: 820.6px;
+}

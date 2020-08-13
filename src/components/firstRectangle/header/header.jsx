@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../firstRectangleContainer/logo/logo'
-import './header.css'
+import './header.scss'
 
 
 function Header() {

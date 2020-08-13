@@ -1,19 +1,20 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
 .leftBlock {
     position: relative;
     width: 720px;
     height: 1024px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
+    background: $white-color;
 }
 
 .leftBlock__img {
     position: absolute;
-    width: 830px;
-    height: 722px;
     left: 610px;
     top: 302px;
-    background: url('man.png');
+    @include img(url('../img/man.png'),830px, 722px);
     z-index: 2;
 }
 

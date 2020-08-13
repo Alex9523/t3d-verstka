@@ -1,23 +1,22 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
 .rightBlock {
     position: absolute;
     width: 720px;
     height: 1024px;
     left: 720px;
     top: 0px;
-    background: #001E4C;
+    background: $backgr;
 }
 
-.rightBlock-title {
+.rightBlock__title {
     position: absolute;
     width: 589px;
     margin-left: -19px;
 
-    font-family: Franklin Gothic Book;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
+    @include font(Franklin Gothic Book, normal, 50px, $white-color);
     line-height: 57px;
     text-align: right;
-    color: #FFFFFF;
     z-index: 2;
 }

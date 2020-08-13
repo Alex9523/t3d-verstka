@@ -1,10 +1,10 @@
 import React from 'react'
-import './rightBlock.css'
+import './rightBlock.scss'
 
 function RightBlock() {
     return (
         <div className='rightBlock'>
-            <div className='rightBlock-title'>
+            <div className='rightBlock__title'>
                 <p>Why Hiring a Business Consultant?</p>
             </div>
         </div>

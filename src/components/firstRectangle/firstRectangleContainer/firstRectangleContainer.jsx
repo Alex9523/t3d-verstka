@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../header/header'
 import WhoWeAre from '../whoWeAre/whoWeAre'
-import './firstRectangleContainer.css'
+import './firstRectangleContainer.scss'
 
 function FirstRectangleContainer(){
     return(

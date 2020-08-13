@@ -1,7 +1,9 @@
+@import "../../../scss/variables.scss";
+
 .fifthContainer {
     position: absolute;
     top: 3432px;
     width: 1440px;
     height: 240px;
-    background: #001E4C;
+    background: $backgr;
 }

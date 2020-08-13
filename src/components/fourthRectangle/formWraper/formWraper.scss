@@ -1,3 +1,6 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
 .form-wraper {
     position: absolute;
     width: 652px;
@@ -12,7 +15,5 @@
 }
 
 .form-wraper__people-pictures {
-    background-image: url('Call center-amico 1.png');
-    width: 386px;
-    height: 372px;
+    @include img(url('../img/Call center-amico 1.png'), 386px, 372px);
 }

@@ -1,0 +1,27 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
+.header {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 1080px;
+    top: 60px;
+}
+
+.contacts__img {
+    position: absolute;
+    top:22px;
+    left:105px;
+    @include img(url('../img/tel.png'),10px, 10px );
+}
+
+.contacts__text {
+    @include font(Niramit, 600, 16px, $white-color);
+    line-height: 21px;
+    margin-right: 40px;
+}

@@ -1,0 +1,14 @@
+@mixin font($fontF,$fontW, $fontS, $color){
+    font-family: fontF;
+    font-style: normal;
+    font-weight: $fontW;
+    font-size: $fontS;
+    color: $color;
+}
+
+@mixin img($url, $w , $h){
+    background-image: $url;
+    width: $w;
+    height: $h;
+}
+

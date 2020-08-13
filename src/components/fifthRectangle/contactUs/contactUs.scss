@@ -1,0 +1,17 @@
+@import "../../../scss/mixins.scss";
+@import "../../../scss/variables.scss";
+
+.contactUsWraper{
+    height: 112px;
+    width: 250px;
+    position: absolute;
+    left: 900px;
+    top:10px
+}
+
+.contactUsWraper{
+    p{
+        @include font(Niramit,200, 12px, $white-color);
+        line-height: 16px;
+    }
+}

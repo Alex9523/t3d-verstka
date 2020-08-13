@@ -1,5 +1,5 @@
 import React from 'react'
-import './whoWeAre.css'
+import './whoWeAre.scss'
 
 function WhoWeAre(){
     return(

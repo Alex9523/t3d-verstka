@@ -1,26 +1,24 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
+
 .socialNetworkWraper__twiter {
     position: absolute;
-    width: 24.63px;
-    height: 20px;
     left: 150px;
     top: 93px;
-    background-image: url('твит.png');
+    @include img(url('../img/твит.png'),24.63px, 20px);
 }
 
 .socialNetworkWraper__insta {
     position: absolute;
-    width: 20px;
-    height: 20px;
     left: 215px;
     top: 93px;
-    background-image: url('инст.png');
+    @include img(url('../img/инст.png'),20px, 20px);
 }
 
 .socialNetworkWraper__facebook {
     position: absolute;
-    width: 9.9px;
-    height: 20px;
     left: 275px;
     top: 93px;
-    background-image: url('фэйс.png');
+    @include img(url('../img/фэйс.png'),9.9px, 20px);
 }

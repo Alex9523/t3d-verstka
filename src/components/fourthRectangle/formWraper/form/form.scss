@@ -1,30 +1,29 @@
+@import "../../../../scss/variables.scss";
+@import "../../../../scss/mixins.scss";
+
 .form {
     position: absolute;
     width: 207px;
     height: 350px;
     left: 390px;
     top: 50px;
-    background: rgba(8, 58, 128, 0.8);
+    background: #083a80cc;
     border-radius: 5px;
     padding-left: 30px;
 }
 
 .form__input-header {
     margin-bottom: 0;
-    font-family: Franklin Gothic Book;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    @include font(Franklin Gothic Book, normal, 20px, $white-color);
     line-height: 23px;
-    color: #FFFFFF;
 }
 
 .form__input {
     border: 0;
-    border-bottom: 1px solid #000;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: white;
-    color: white;
+    border-bottom: 1px solid #000000;
+    background-color: #00000000;
+    border-color: $white-color;
+    color: $white-color;
     outline: 0;
 }
 
@@ -34,11 +33,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .form__button {
-    border-color: white;
+    border-color: $white-color;
     background-color: rgba(0, 0, 0, 0);
     width: 163px;
     height: 27px;
-    color: white;
+    color: $white-color;
     border-radius: 5px;
     margin: 60px auto;
     

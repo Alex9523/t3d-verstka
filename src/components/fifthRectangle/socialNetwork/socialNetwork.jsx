@@ -1,5 +1,5 @@
 import React from 'react'
-import './socialNetwork.css'
+import './socialNetwork.scss'
 
 function SocialNetwork(){
     return(

@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from './form/form'
-import './formWraper.css'
+import './formWraper.scss'
 
 function FormWraper(){
     return(

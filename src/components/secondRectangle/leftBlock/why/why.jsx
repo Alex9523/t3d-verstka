@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
-import './why.css'
+import './why.scss'
 
 function Why(props) {
     const [number, setNumber] = useState(props.number)
     const [text, setText] = useState(props.text)
     const [clas, setClass] = useState(props.class)
-    console.log(clas)
     return (
         <div className={`why ${clas}`} >
-            <h2>{number}</h2>
+            <h2 className="why__header">{number}</h2>
             <hr/>
-            <span>
-               
+            <span className="why__text">
                 <p>{text}</p>
             </span>
         </div>

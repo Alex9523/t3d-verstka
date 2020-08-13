@@ -1,6 +1,6 @@
 import React from 'react'
-import CardIndustries from './CardIndustries/cardIndustries'
-import './thirdRectangleContainer.css'
+import CardIndustries from '../CardIndustries/cardIndustries'
+import './thirdRectangleContainer.scss'
 
 function ThirdRectangleContainer(){
     return(

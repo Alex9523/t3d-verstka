@@ -1,15 +1,15 @@
 import React from 'react'
 
 import Why from './why/why'
-import './leftBlock.css'
+import './leftBlock.scss'
 
 function LeftBlock(){
 const data = [
-    {number: '01', text: 'Business consultants are experts in the fields they work in and since they have worked directly with various companies and in different fields, they have the best practices up their sleeve and they have developed the knowhow to provide custom-tailored solutions.', class:'position_1'},
-    {number: '02', text: 'Consultants are result-focused, and their main target is to succeed with their project, therefore they will focus their resources and apply performance-related activities to make sure your goals are achieved.', class:'position_2'},
-    {number: '03', text: 'Consultants are not full-time employees, therefore breaking off the relationship is relatively easy and cost-effective.', class:'position_3'},
-    {number: '04', text: 'Sometimes your in-house people are too close to your company that they do not see the bigger picture within your market. With a fresh perspective on your business, consultants come in with a clear vision to provide real and concrete actions and activities that will help you accomplish your objective.', class:'position_4'},
-    {number: '05', text: 'Consultants are professional trainers, so they are a natural choice to share valuable insights that boost your internal creative thinking and to train your team to break the logjam and adapt to new circumstances.', class:'position_5'},
+    {number: '01', text: 'Business consultants are experts in the fields they work in and since they have worked directly with various companies and in different fields, they have the best practices up their sleeve and they have developed the knowhow to provide custom-tailored solutions.', class:'position-1'},
+    {number: '02', text: 'Consultants are result-focused, and their main target is to succeed with their project, therefore they will focus their resources and apply performance-related activities to make sure your goals are achieved.', class:'position-2'},
+    {number: '03', text: 'Consultants are not full-time employees, therefore breaking off the relationship is relatively easy and cost-effective.', class:'position-3'},
+    {number: '04', text: 'Sometimes your in-house people are too close to your company that they do not see the bigger picture within your market. With a fresh perspective on your business, consultants come in with a clear vision to provide real and concrete actions and activities that will help you accomplish your objective.', class:'position-4'},
+    {number: '05', text: 'Consultants are professional trainers, so they are a natural choice to share valuable insights that boost your internal creative thinking and to train your team to break the logjam and adapt to new circumstances.', class:'position-5'},
 ]
     return(
         <div className='leftBlock'>

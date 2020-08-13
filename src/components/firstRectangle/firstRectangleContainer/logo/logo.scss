@@ -1,0 +1,37 @@
+@import "../../../../scss/variables.scss";
+@import "../../../../scss/mixins.scss";
+.logo {
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+.logo__img {
+    @include img(url('../img/logo1.png'), 67px, 64px);
+}
+
+.logo__title {
+    h2{
+        @include font(Anklepants, normal, 20px, $white-color);
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+}
+
+.logo__title {
+    p{
+        @include font(Prosto One, normal, 12px, $white-color);
+        line-height: 15px;
+        margin-top: 0;
+    }
+}
+
+.logo{
+    hr{
+        height: 64px;
+
+    }
+}

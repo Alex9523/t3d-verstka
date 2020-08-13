@@ -1,7 +1,7 @@
 import React from 'react'
 import SocialNetwork from '../socialNetwork/socialNetwork'
 import ContactUs from '../contactUs/contactUs'
-import './fifthRectangleContainer.css'
+import './fifthRectangleContainer.scss'
 
 function FifthRectangleContainer(){
     return(

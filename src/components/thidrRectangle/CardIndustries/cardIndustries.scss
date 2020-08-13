@@ -1,0 +1,31 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins.scss";
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 695px;
+    margin-top: 30px;
+}
+
+.card-industries__img-home {
+    @include img(url('../img/дом1\ 1.png'), 97px , 92px);
+}
+
+.card-industries__img-hart {
+    @include img( url('../img/сердце 1.png'), 97px , 92px);
+}
+
+.card-industries__img-men {
+    @include img(url('../img/чел 1.png'), 97px , 92px);
+}
+
+.card-industries__img-pil {
+    @include img(url('../img/тэблет 1.png'), 97px , 92px);
+
+}
+
+.card-industries__text {
+    @include font(Niramit, 300, 24px, $white-color);
+    line-height: 31px;
+}
